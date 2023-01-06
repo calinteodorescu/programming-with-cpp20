@@ -1,0 +1,20 @@
+# CMake generation dependency list for this directory.
+C:/Tools/CMake/share/cmake-3.25/Modules/CMakeCXXInformation.cmake
+C:/Tools/CMake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake
+C:/Tools/CMake/share/cmake-3.25/Modules/CMakeGenericSystem.cmake
+C:/Tools/CMake/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake
+C:/Tools/CMake/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake
+C:/Tools/CMake/share/cmake-3.25/Modules/CMakeRCInformation.cmake
+C:/Tools/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake
+C:/Tools/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Tools/CMake/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Tools/CMake/share/cmake-3.25/Modules/Compiler/MSVC-CXX.cmake
+C:/Tools/CMake/share/cmake-3.25/Modules/Compiler/MSVC.cmake
+C:/Tools/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Tools/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC.cmake
+C:/Tools/CMake/share/cmake-3.25/Modules/Platform/Windows.cmake
+C:/Tools/CMake/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake
+D:/Git/programming-with-cpp20/CMakeLists.txt
+D:/Git/programming-with-cpp20/VS/CMakeFiles/3.25.1/CMakeCXXCompiler.cmake
+D:/Git/programming-with-cpp20/VS/CMakeFiles/3.25.1/CMakeRCCompiler.cmake
+D:/Git/programming-with-cpp20/VS/CMakeFiles/3.25.1/CMakeSystem.cmake

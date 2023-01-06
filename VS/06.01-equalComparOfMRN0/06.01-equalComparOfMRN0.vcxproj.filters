@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Git\programming-with-cpp20\06.01-equalComparOfMRN0\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Git\programming-with-cpp20\06.01-equalComparOfMRN0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CFB77444-048C-3D2D-80EF-D804E629A8D2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
