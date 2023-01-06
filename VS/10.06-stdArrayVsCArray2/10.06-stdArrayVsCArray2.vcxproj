@@ -73,6 +73,7 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;IS_GCC=false;IS_CLANG=false;IS_MSVC=true;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;IS_GCC=false;IS_CLANG=false;IS_MSVC=true;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
@@ -92,8 +93,10 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImportLibrary>D:/Git/programming-with-cpp20/VS/10.06-stdArrayVsCArray2/Debug/10.06-stdArrayVsCArray2.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Git/programming-with-cpp20/VS/bin/Debug/10.06-stdArrayVsCArray2.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapExports>$(OutDir)$(TargetName).map</MapExports>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -116,8 +119,8 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IS_GCC=false;IS_CLANG=false;IS_MSVC=true;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat>
-      </DebugInformationFormat>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IS_GCC=false;IS_CLANG=false;IS_MSVC=true;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
@@ -134,11 +137,13 @@
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImportLibrary>D:/Git/programming-with-cpp20/VS/10.06-stdArrayVsCArray2/Release/10.06-stdArrayVsCArray2.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Git/programming-with-cpp20/VS/bin/Release/10.06-stdArrayVsCArray2.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapExports>$(OutDir)$(TargetName).map</MapExports>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
