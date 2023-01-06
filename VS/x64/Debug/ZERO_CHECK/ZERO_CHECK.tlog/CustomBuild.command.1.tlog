@@ -1,0 +1,10 @@
+^D:\GIT\PROGRAMMING-WITH-CPP20\VS\CMAKEFILES\B8410B68C4DB334392A9BD8F5CB96900\GENERATE.STAMP.RULE
+setlocal
+C:\Tools\CMake\bin\cmake.exe -SD:/Git/programming-with-cpp20 -BD:/Git/programming-with-cpp20/VS --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Git/programming-with-cpp20/VS/Programming with C++20 - Concepts, Coroutines, Ranges, and more.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -95,7 +95,9 @@
       <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <GenerateMapFile>true</GenerateMapFile>
-      <MapExports>$(OutDir)$(TargetName).map</MapExports>
+      <MapExports>
+      </MapExports>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -141,7 +143,9 @@
       <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <GenerateMapFile>true</GenerateMapFile>
-      <MapExports>$(OutDir)$(TargetName).map</MapExports>
+      <MapExports>
+      </MapExports>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
